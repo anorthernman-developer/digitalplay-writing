@@ -1,0 +1,77 @@
+{
+  "$schema": "./catalogue.schema.json",
+  "section": "writing",
+  "sectionName": "Writing",
+  "repo": "https://github.com/anorthernman-developer/digitalplay-writing",
+  "tools": [
+    {
+      "slug": "cut-up-machine",
+      "num": "01",
+      "title": "Cut-Up Machine",
+      "summary": "Paste in your own words, cut them into pieces with digital scissors, and shuffle until a line you would never have written turns up. Lock the bits you like and shake the rest.",
+      "whatYouDo": "Paste a text (a diary entry, a shopping list, an email), choose how to cut it, shuffle, lock and drag fragments, then copy or save the new piece.",
+      "subcategory": "Experimental writing",
+      "techniques": [
+        "cut-up",
+        "collage",
+        "chance",
+        "editing",
+        "fold-in"
+      ],
+      "movement": "Dada chance poetry (1920) and the cut-up method (late 1950s)",
+      "inspiredBy": [
+        "Dada chance poems made by drawing words from a hat (1920)",
+        "The cut-up method developed in Paris around 1959"
+      ],
+      "skillLevel": "first-go",
+      "input": [
+        "your-words"
+      ],
+      "output": [
+        "text",
+        "json-preset"
+      ],
+      "sessionLength": "5-min",
+      "ai": "no-ai",
+      "era": "1946-1979",
+      "added": "2026-11-01",
+      "section": "writing",
+      "file": "tools/cut-up-machine.html",
+      "repo": "https://github.com/anorthernman-developer/digitalplay-writing"
+    },
+    {
+      "slug": "tiny-adventure",
+      "num": "02",
+      "title": "Tiny Adventure",
+      "summary": "Write a little text adventure and play it straight away. Make rooms, join them with exits, hide objects, set a goal, then type go north and see if your world holds together.",
+      "whatYouDo": "Edit rooms, exits and objects on the right, play your game on the left, and save the whole story as a file you can share.",
+      "subcategory": "Interactive fiction",
+      "techniques": [
+        "interactive fiction",
+        "world-building",
+        "description",
+        "branching"
+      ],
+      "movement": "Text adventures and interactive fiction (mid-1970s onwards)",
+      "inspiredBy": [
+        "Early text adventure games of the mid-1970s",
+        "Classroom use of text adventures for reading and writing"
+      ],
+      "skillLevel": "getting-going",
+      "input": [
+        "your-words"
+      ],
+      "output": [
+        "json-preset",
+        "text"
+      ],
+      "sessionLength": "30-min-plus",
+      "ai": "no-ai",
+      "era": "1946-1979",
+      "added": "2026-11-01",
+      "section": "writing",
+      "file": "tools/tiny-adventure.html",
+      "repo": "https://github.com/anorthernman-developer/digitalplay-writing"
+    }
+  ]
+}
